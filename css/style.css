@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%); }
+
+.header {
+  display: inline-block;
+  background-color: red;
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline; }
+
+.section {
+  grid-column: span 1; }
+  .section__txt {
+    background-color: blue; }
+  .section__img {
+    background-color: yellow; }
+  .section__img img {
+    width: 100%;
+    object-fit: contain;
+    background-color: pink; }
+
+.footer {
+  background-color: purple;
+  grid-column: span 2; }
+  .footer__attribution {
+    font-size: 11px;
+    text-align: center; }
+  .footer__attribution a {
+    color: #3e52a3; }

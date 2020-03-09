@@ -1,0 +1,15 @@
+.footer{
+  background-color: purple;
+  grid-column: span 2;
+
+  &__attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  &__attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+}

@@ -1,0 +1,23 @@
+{
+  "name": "fylo",
+  "version": "1.0.0",
+  "description": "Landing page for Fylo",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freedamoore/Fylo-Landing-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freedamoore/Fylo-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/freedamoore/Fylo-Landing-Page#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

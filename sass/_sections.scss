@@ -1,0 +1,19 @@
+.section{
+  grid-column: span 1;
+
+  &__txt{
+    background-color: blue;
+  }
+
+  &__img{
+    background-color: yellow;
+  }
+
+  &__img img{
+    width: 100%;
+    object-fit: contain;
+    background-color: pink;
+  }
+
+
+}
