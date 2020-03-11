@@ -1,16 +1,37 @@
-.header{
-  display: inline-block;
-  background-color: red;
-  grid-column: span 2;
+.header {
+
+  padding: $margin-medium $margin-large;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 
-  &__image{
-
+  @media only screen and (max-width: $bp-small) {
+    padding: 1rem;
   }
 
-  &__nav{
+  &__logo {
+    @media only screen and (max-width: $bp-small) {
+      max-width: 20%;
+      height: auto;
+    }
+  }
 
+  &__link {
+    color: $color-primary-dark;
+    @media only screen and (max-width: $bp-small) {
+      padding: 1rem;
+    }
+    text-decoration: none;
+  }
+
+  &__link:not(:last-child) {
+    padding-right: 2.5rem;
+    @media only screen and (max-width: $bp-small) {
+      padding-right: 1rem;
+    }
+  }
+
+  & li{
+    text-decoration: none;
   }
 }

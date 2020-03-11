@@ -8,10 +8,14 @@
 
 body{
   box-sizing: border-box;
+  color: $color-primary-dark;
   font-family: $font-body;
+  font-weight: $font-weight-normal;
 }
 
 .container{
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(5, min-content);
+  grid-template-columns: 1fr;
+  align-items: center;
 }
