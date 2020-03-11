@@ -1,6 +1,6 @@
-# My solution to the below challenge using SCSS, BEM methodology, CSS Grids and Flexbox. 
+## My solution to the below challenge using SCSS, BEM methodology, CSS Grids and Flexbox. 
 
-# Live site here: https://freedamoore.github.io/Fylo-Landing-Page/
+## Live site here: https://freedamoore.github.io/Fylo-Landing-Page/
 
 # Frontend Mentor - Fylo landing page with two column layout
 
